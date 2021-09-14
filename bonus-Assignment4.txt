@@ -1,0 +1,48 @@
+
+    Check in: Confirm that you have read this page and have started working on this module. 
+    Explore some Python data structures shown in the image below (image (Links to an external site.)).
+    Choose any block on that chart and "google" that Python data structure. 
+    Provide three things:
+        The data structure you choose
+        A short description of that Python data structure. 
+        A link to the web page describing that Python data structure. 
+    Question 1: Describe an example where you might encounter information that seems to fit the data structure you researched.
+    Optional: Post any questions or issues you might encounter.  Post an answer or a suggestion. Include detailed error information (screenshots help!) Share a suggestion, link, comment, or just say hi. 
+
+Bonus
+------
+
+URL : https://pythonexamples.org/python-count-number-of-words-in-text-file/
+
+Answer 1: The results are extremely valuable. Based on the count of the positive and negative words from a social page feed, we can perform sentiment analysis which can generate valuable insights.
+
+Answer 2: Stop words can be used to remove overly common words: from nltk.corpus import stopwords
+https://towardsdatascience.com/a-guide-to-cleaning-text-in-python-943356ac86ca
+
+Python clean text looks very helpful for text preprocessing - https://pypi.org/project/clean-text/
+
+from cleantext import clean
+
+clean("some input",
+    fix_unicode=True,               # fix various unicode errors
+    to_ascii=True,                  # transliterate to closest ASCII representation
+    lower=True,                     # lowercase text
+    no_line_breaks=False,           # fully strip line breaks as opposed to only normalizing them
+    no_urls=False,                  # replace all URLs with a special token
+    no_emails=False,                # replace all email addresses with a special token
+    no_phone_numbers=False,         # replace all phone numbers with a special token
+    no_numbers=False,               # replace all numbers with a special token
+    no_digits=False,                # replace all digits with a special token
+    no_currency_symbols=False,      # replace all currency symbols with a special token
+    no_punct=False,                 # remove punctuations
+    replace_with_punct="",          # instead of removing punctuations you may replace them
+    replace_with_url="<URL>",
+    replace_with_email="<EMAIL>",
+    replace_with_phone_number="<PHONE>",
+    replace_with_number="<NUMBER>",
+    replace_with_digit="0",
+    replace_with_currency_symbol="<CUR>",
+    lang="en"                       # set to 'de' for German special handling
+) 
+		
+		

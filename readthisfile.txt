@@ -1,0 +1,41 @@
+features:
+
+    Predict your campaign’s performance with machine learning and make changes accordingly.
+    Analyze people’s sentiments when they engage with your posts.
+    Manage influencers’ accounts and permissions, and track their performance from one place.
+
+Social media channels:
+
+    Facebook
+    Instagram
+    Twitter
+
+Analytics:
+
+        Audience insights
+        Sentiment analysis
+        Compare brands
+        Trends identification
+
+features:
+
+    Compare your profiles to others in your industry in terms of social metrics, hashtags, and content quality.
+    Integrate Google Analytics to get a complete understanding of your customers’ journey.
+    Improve your Facebook and Instagram ad performance with automated insights.
+
+Social networks analyzed:
+
+    Facebook
+    Twitter
+    Instagram
+    YouTube
+    Pinterest
+    LinkedIn
+
+analytics:
+
+        Facebook ads reports and alerting
+        Facebook and Instagram insights reporting
+        Facebook boosted post analytics
+        LinkedIn and Google analytics
+
